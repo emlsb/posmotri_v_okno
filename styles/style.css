@@ -49,14 +49,14 @@ html {
   width: 500px;
   display: grid;
   grid-template-columns: 225px 212px 194px;
-  align-items: start;
+  align-items: end;
   gap: 40px;
   justify-items: start;
 }
 
 .search-form__fieldset {
-  width: 100%;
   border: none;
+  padding-bottom: 5px;
 }
 
 .search-form__fieldset-title {
@@ -66,6 +66,7 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 5px;
 }
 
 .search-form__label {
