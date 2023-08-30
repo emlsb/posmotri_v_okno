@@ -129,7 +129,7 @@ ol {
 }
 
 .search-form__textfield {
-  background: none;
+  background-color: transparent;
   border: none;
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
@@ -141,6 +141,30 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.search-form__checkbox-list {
+  display: flex;
+  gap: 15px;
+}
+
+input[type="checkbox"] + span {
+  width: 19px;
+  height: 19px;
+  border: 1px solid #FFF;
+  background-color: transparent;
+
+}
+
+.search-form__label {
+  display: flex;
+  gap: 5px;
+}
+
+.search-form__checkbox {
+  border: 1px solid #FFF;
+  width: 19px;
+  height: 19px;
 }
 
 .content__details {
