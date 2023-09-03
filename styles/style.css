@@ -194,7 +194,14 @@ input[type="text"]:focus-visible {
 /* ---------- */
 
 /* ------ Темплейты ------ */
-.content__list-item {
+.content__list-item a:focus {
+  border: none;
+  outline: none;
+}
+
+.content__list-item a:focus-visible {
+  border: 1px solid #FFF;
+  outline: none;
 }
 
 .content__list-item:active {
@@ -218,6 +225,7 @@ input[type="text"]:focus-visible {
 }
 
 .content__video-card-thumbnail {
+  padding: 1px;
   width: 194px;
   height: 103px;
   object-fit: cover;
@@ -347,12 +355,4 @@ input[type="text"]:focus-visible {
   width: 15px;
   height: 15px;
   background: #fff;
-}
-
-.content__list-item:focus {
-  border: 10px solid #FFF;
-}
-
-.content__list-item:focus-visible {
-  border: 10px solid #FFF;
 }
