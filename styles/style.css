@@ -191,7 +191,8 @@ input[type="text"]:focus-visible {
 /* ------ Темплейты ------ */
 
 .content__list-item a:focus {
-  border: 1px solid #FFF;
+  border: none;
+  outline: none;
 }
 
 .content__list-item a:focus-visible {
@@ -232,6 +233,10 @@ input[type="text"]:focus-visible {
   display: block;
   text-decoration: none;
   color: #fff;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .content__video-card-description-container {
