@@ -191,8 +191,7 @@ input[type="text"]:focus-visible {
 /* ------ Темплейты ------ */
 
 .content__list-item a:focus {
-  border: none;
-  outline: none;
+  border: 1px solid #FFF;
 }
 
 .content__list-item a:focus-visible {
